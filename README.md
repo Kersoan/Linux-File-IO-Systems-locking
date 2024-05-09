@@ -6,15 +6,12 @@ To Write a C program that illustrates files copying and locking
 # DESIGN STEPS:
 
 ### Step 1:
-
 Navigate to any Linux environment installed on the system or installed inside a virtual environment like virtual box/vmware or online linux JSLinux (https://bellard.org/jslinux/vm.html?url=alpine-x86.cfg&mem=192) or docker.
 
 ### Step 2:
-
 Write the C Program using Linux IO Systems locking
 
 ### Step 3:
-
 Execute the C Program for the desired output. 
 
 # PROGRAM:
@@ -43,8 +40,6 @@ exit(0);}
 ```
 -rwxr-xr-x    1 root     root         18348 Apr 17 14:14 file.o
 ```
-
-
 ## 2.To Write a C program that illustrates files locking
 ```
 #include <fcntl.h>
@@ -85,15 +80,9 @@ close (fd);
 return 0;
 }
 ```
-
-
-
 ## OUTPUT
 ```
 -rwxr-xr-x    1 root     root         18376 Apr 17 14:20 text.o
 ```
-
-
-
 # RESULT:
 The programs are executed successfully.
