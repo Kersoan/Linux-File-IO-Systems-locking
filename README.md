@@ -11,14 +11,19 @@ Write the C Program using Linux IO Systems locking
 ### Step 3:
 Execute the C Program for the desired output. 
 # PROGRAM:
+
+```
 NAME : KERSOAN P
 REG  : 212221230050
+```
 ## 1.To Write a C program that illustrates files copying 
 ```
 #include <unistd.h>
 #include <sys/stat.h>
 #include <fcntl.h>
 #include <stdlib.h>
+```
+```
 int main()
 {
 char block[1024];
@@ -46,6 +51,8 @@ int main (int argc, char* argv[])
  int fd;
  struct flock lock;
  printf ("opening %s\n", file);
+```
+```
  /* Open a file descriptor to the file. */
  fd = open (file, O_WRONLY);
 // acquire shared lock
