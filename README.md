@@ -1,5 +1,4 @@
-# Linux-File-IO-Systems-locking
-Ex07-Linux File-IO Systems-locking
+# EX-07-Linux-File-IO-Systems-locking
 # AIM:
 To Write a C program that illustrates files copying and locking
 
@@ -19,8 +18,8 @@ Execute the C Program for the desired output.
 
 # PROGRAM:
 ```
-NAME:MUDI.PAVAN
-REG:212221230067
+NAME : KERSOAN P
+REG  : 212221230050
 ```
 ## 1.To Write a C program that illustrates files copying 
 ```
